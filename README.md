@@ -18,39 +18,5 @@ Structure: Pre-organized into train, valid, and test folders
 
 Classes: 4 chest-related conditions
 
-![download](https://github.com/user-attachments/assets/aa59085c-9ec2-4043-ae61-8f0d70f20d0e)
-
-
-### Model Architecture
-Custom ResNet50 implementation with:
-
-identity_block() and convolutional_block() modules
-
-Batch normalization, ReLU activations, and skip connections
-
-Final classification head:
-
-Global average pooling + fully connected dense layers
-
-Dropout (0.3–0.5) and L2 regularization applied
-
-Softmax output for multi-class classification
-
-### Model Evaluation
-Training and validation accuracy was plotted to observe performance trends. Below is a sample output:
-
-python
-Copy code
-Test loss: 0.29
-Test accuracy: 0.89
-📌 The model showed:
-
-High training accuracy with stable validation accuracy
-
-Good generalization on test data
-
-![download (1)](https://github.com/user-attachments/assets/021b9da8-7607-45fa-a228-033a508988df)
-
-
 ### Conclusion
 This project demonstrates the efficacy of a ResNet50 architecture from scratch in classifying CT scan images for chest cancer detection. The combination of residual learning, data augmentation, and regularization techniques makes it robust for real-world medical imaging tasks.
