@@ -1,5 +1,5 @@
 ## ResNet50-ChestCancer-Detection
-This project implements the ResNet50 architecture from scratch and uses it to classify chest cancer from CT scan images. It leverages both a fully custom residual network and transfer learning approaches to achieve high classification accuracy on the Chest CT-scan Images dataset.
+This project implements the ResNet50 architecture uses it to classify chest cancer from CT scan images. 
 
 ### Project Highlights
  Custom ResNet50 architecture implemented from scratch using TensorFlow/Keras
