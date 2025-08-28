@@ -14,7 +14,7 @@ Source: Kaggle - Chest CT-scan Images
 
 Structure: Pre-organized into train, valid, and test folders
 
-Classes: 4 chest-related conditions
+Classes: 4 lung-related conditions
 
 ### Conclusion
 This project demonstrates the efficacy of a ResNet50 architecture from scratch in classifying CT scan images for lung cancer detection. The combination of residual learning, data augmentation, and regularization techniques makes it robust for real-world medical imaging tasks.
