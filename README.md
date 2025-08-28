@@ -1,4 +1,4 @@
-## ResNet50-ChestCancer-Detection
+## ResNet50-LungCancer-Detection
 This project implements the ResNet50 architecture uses it to classify chest cancer from CT scan images. 
 
 ### Project Highlights
