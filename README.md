@@ -30,13 +30,13 @@ The ResNet-50 backbone already understands textures, edges, and shapes, allowing
 ---
 
 ##  Experimentation
-- **Training from Scratch (Random Weights):**
+**Training from Scratch (Random Weights):**
 - Model initialized with random weights.
 - Accuracy remained low (~50–60%) due to insufficient data.
 - Model struggled to generalize and converged slowly. 
-- **Feature Extractor (Top Layers Only):**
+**Feature Extractor (Top Layers Only):**
 - Loaded pre-trained ResNet-50 base with all convolutional layers frozen.
 - Trained only a small dense classification head on top.
-- **Full Transfer Learning (Current Implementation):**
+**Full Transfer Learning (Current Implementation):**
 - Used ResNet-50 pretrained backbone + custom classification head with multiple Dense and Dropout layers.
 - Achieved higher test accuracy with stable validation performance.
