@@ -42,4 +42,4 @@ The ResNet-50 backbone already understands textures, edges, and shapes, allowing
 **Full Transfer Learning (Current Implementation):**
 - Used ResNet-50 pretrained backbone + custom classification head with multiple Dense and Dropout layers.
 - Achieved higher test accuracy with stable validation performance.
-- https://github.com/hithaishree98/Chest_CT_Scan_Classification_with_ResNet50/blob/main/plot.png
+  ![image](https://github.com/hithaishree98/Chest_CT_Scan_Classification_with_ResNet50/blob/main/plot.png)
